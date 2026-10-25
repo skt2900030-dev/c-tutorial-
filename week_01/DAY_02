@@ -1,11 +1,15 @@
 #include<stdio.h>
 #include<math.h>
 
+// checking if the number is positive negative or zero
+
 int main(){
 int n;
 
 printf("ENTER THE NUMBER : ");
 scanf("%d",&n);
+
+// reciving the number from the user 
 
 if (n>0){
 printf("\n THE NUMBER IS POSITIVE");
