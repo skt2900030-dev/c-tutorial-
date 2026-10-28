@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    float bmi;
+    printf("ENTER THE BMI OF THE PERSON : ");
+    scanf("%f",&bmi);
+// classifying BMI of the person either Underweight, Obesce, or Normal
+    if (bmi < 18.5) {
+        printf("Underweight\n");
+    }
+    else if (bmi < 22.4) {
+        printf("Normal\n");
+    }
+    else if (bmi < 30.0) {
+        printf("Overweight\n");
+    }
+    else {
+        printf("Obese\n");
+    }
+
+    return 0;
+}
